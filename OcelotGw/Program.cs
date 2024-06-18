@@ -12,6 +12,7 @@ namespace OcelotGw
             // Add services to the container.
             builder.Services.AddControllers();
             //Ocelot≈‰÷√
+            builder.Services.AuthenticationRoute();
             IConfiguration configuration = new ConfigurationBuilder().AddJsonFile("ocelot.json").Build();
             builder.Services.AddOcelot(configuration);
 

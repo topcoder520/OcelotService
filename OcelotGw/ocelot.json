@@ -1,16 +1,25 @@
 {
   "Routes": [
     {
+      "RequestIdKey": "",
       "DownstreamPathTemplate": "/api/book/GetBookById?Id={id}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
           "Port": 9091
+        },
+        {
+          "Host": "localhost",
+          "Port": 9093
         }
       ],
       "UpstreamPathTemplate": "/api/books/{id}",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      "AuthenticationOptions": { //授权认证
+        "AuthenticationProviderKey": "TestKey", //在ConfigureServices中添加认证，和平常的JWT Bearer没区别，
+        "AllowedScopes": []
+      }
     },
     {
       "DownstreamPathTemplate": "/api/book/GetBookById?Id={id}",
