@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceApi", "ServiceApi\ServiceApi.csproj", "{010B954D-D93A-4E8E-8959-950111107B4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotGw", "OcelotGw\OcelotGw.csproj", "{C50A3894-8A4A-425C-BB92-CED95F7408D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{010B954D-D93A-4E8E-8959-950111107B4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{010B954D-D93A-4E8E-8959-950111107B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{010B954D-D93A-4E8E-8959-950111107B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{010B954D-D93A-4E8E-8959-950111107B4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C50A3894-8A4A-425C-BB92-CED95F7408D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C50A3894-8A4A-425C-BB92-CED95F7408D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C50A3894-8A4A-425C-BB92-CED95F7408D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C50A3894-8A4A-425C-BB92-CED95F7408D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82F30619-AA9D-4953-B282-5F4BEF2ED693}
+	EndGlobalSection
+EndGlobal

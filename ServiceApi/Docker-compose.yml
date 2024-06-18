@@ -1,0 +1,15 @@
+services: 
+    serviceone:
+        build: 
+            context: .
+            dockerfile: Dockerfile
+        ports: 
+           - "9091:8080"
+    servicetwo: 
+        build: 
+            context: .
+            dockerfile: Dockerfile
+        ports: 
+            - "9092:8080"
+
+    
